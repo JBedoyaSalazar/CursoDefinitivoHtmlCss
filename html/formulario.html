@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta pagina es un ejemplo de creacion de formulario para con buenas practicas.">
+    <!--Deja que el navegador lea la pagina para recomendarla-->
+    <meta name="robots" content= "index, follow">
+    <!--Compatibilidad en edge-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Jefred Bedoya">
+    <!--Favicon structure-->
+    <!-- Clásico: compatibilidad antigua -->
+    <link rel="icon" href="../Assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../Assets/favicon/favicon.ico" type="image/x-icon">
+
+    <!-- PNG moderno para navegadores actuales -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../Assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Assets/favicon/favicon-16x16.png">
+
+    <!-- Apple -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../Assets/favicon/apple-touch-icon.png">
+
+    <!-- Web App (PWA) -->
+    <link rel="manifest" href="../Assets/favicon/site.webmanifest">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">
+            <span>Ingresa tu nombre:</span>
+            <input type="text" id="nombre" name="nombre" placeholder="Juan" required>
+        </label>
+        <label for="inicioPlatzi">
+            <span>Que dia comnezaste en platzi:</span>
+            <input type="date" id="inicioPlatzi" name="inicioPlatzi">
+        </label>
+        <label for="horario">
+            <span>En que horario estudias?</span>
+            <input type="time" id="horario" name="horario">
+        </label>
+    </form>
+</body>
+</html>

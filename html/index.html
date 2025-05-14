@@ -3,13 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Da una descripcion para el posicionamiento SEO de la pagina-->
         <meta name="description" content="Esta pagina es un ejemplo de un documento HTML básico.">
+        <!--Deja que el navegador lea la pagina para recomendarla-->
         <meta name="robots" content= "index, follow">
-        <link rel="stylesheet" href="../css/style.css">
+        <!--Compatibilidad-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--Redes Sociales Contenido-->
         <meta property="og:title" content="Curso Definitivo de HTML y CSS">
         <meta property="og:description" content="Aprende HTML y CSS desde cero hasta un nivel avanzado.">
+        <!--Favicon structure-->
+        <!-- Clásico: compatibilidad antigua -->
+        <link rel="icon" href="../Assets/favicon/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../Assets/favicon/favicon.ico" type="image/x-icon">
+
+        <!-- PNG moderno para navegadores actuales -->
+        <link rel="icon" type="image/png" sizes="32x32" href="../Assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../Assets/favicon/favicon-16x16.png">
+
+        <!-- Apple -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../Assets/favicon/apple-touch-icon.png">
+
+        <!-- Web App (PWA) -->
+        <link rel="manifest" href="../Assets/favicon/site.webmanifest">
         <title>Curso HTML</title>
+         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <header>
@@ -17,10 +35,7 @@
         </header>
         <main>
             <section>
-                <article></article>
-            </section>
-
-            <h1>SuperMarket Bucket</h1>
+                 <h1>SuperMarket Bucket</h1>
 
             <ul>
                 <li>Fruta</li>
@@ -36,7 +51,6 @@
                     <li>Limones</li>
                 </ol>
             </ul>
-
             <ul>
                 <li>Carnes y proteinas</li>
                 <ol>
@@ -50,7 +64,6 @@
                     <li>Tofu</li>
                 </ol>
             </ul>
-
             <ul>
                 <li>Verduras</li>
                 <ol>
@@ -66,7 +79,6 @@
                     <li>Calabacini</li>
                 </ol>
             </ul>
-
             <ul>
                 <li>Otros</li>
                 <ol>
@@ -91,7 +103,24 @@
             <p>Remember this will cost 300$ usd per week</p>
 
             <a href="https://cookpad.com/co/buscar/almuerzos%20fitness" target="_blank" rel="noopener noreferrer">Here are some fit recipes.</a>
+            </section>
+
+            <section>
+                <figure>
+                    <img src="../Assets/Image/coockingImage.jpg" alt="Imagen Grande">
+                    <figcaption>Cocinando una ensalada al estilo Americano</figcaption>
+                </figure>
+            </section>
             
+            <section>
+                <!--Con #t despues del src puedo decir en que tiempo empieza y en cual acaba-->
+                <!--video src="../video/CoockingVideo.mp4#t=10,60" controls preload="auto"></video-->
+
+                <video controls preload="auto">
+                    <source src="../video/CoockingVideo.mp4">
+                </video>
+            </section>
+
         </main>
         <footer>
 
