@@ -1,0 +1,12 @@
+div h2~p{
+    color: red;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.explicacion{
+    text-align: justify;
+}

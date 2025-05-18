@@ -1,0 +1,29 @@
+header nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.mainNav{
+    display: flex;
+    margin-top: 10px ;
+    justify-content: space-between;
+    width: 400px;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.mainNavItem{
+    list-style: none;   
+}
+
+.mainNavItem:hover{
+    border: solid 1px blueviolet;
+    border-radius: 4px;
+}
+
+.mainNavItem a{
+    text-decoration: none;
+    color: black;
+}

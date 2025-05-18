@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    display: flex;
+    border: 0.2rem solid black;
+    justify-content: center;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 10rem;
+    width: 10rem;
+    /* flex-grow: 1; */ 
+}
+
+.box1{
+    background-color: blue;
+    /* order: 6; */
+    /* flex-grow: 1; */
+}
+
+.box2{
+    background-color: red;
+    /* order: 4; */
+    /* flex-grow: 1; Sirve para rellenar espacio faltante en el contenedor, sin embargo cuando la pantalla se achica este se va volviento a su tamaño de contenedor original*/
+}
+
+.box3{
+    background-color: aqua;
+    /* order: 2; */
+}
+
+.box4{
+    background-color: violet;
+    /* order: 1; */
+}
+
+.box5{
+    background-color: pink;
+    /* order: 3; */
+}
+
+.box6{
+    background-color: maroon;
+    /* order: 5; Si no tiene orden se alinea automaticamente a la derecha */
+}
